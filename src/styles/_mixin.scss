@@ -1,0 +1,16 @@
+
+@mixin fontSty($fontS, $fontW, $fontC, $fontL) {
+  font-size: $fontS;
+  font-weight: $fontW;
+  color: $fontC;
+  line-height: $fontL;
+}
+ 
+ 
+@mixin mob($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
+ 
+ 

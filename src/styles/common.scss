@@ -1,0 +1,29 @@
+@import "./var";
+@import "./mixin";
+.partner-btn {
+  @include fontSty(0.8rem, 700, $brand_deep_green, 1rem);
+}
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hfcl_button_com {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  padding: 1rem;
+  background-color: #174035;
+  color: white;
+  border-radius: 5.55rem;
+  text-decoration: none;
+}
+
+.hfcl_button_com.light {
+  background-color: #edffe8;
+  color: black;
+}
